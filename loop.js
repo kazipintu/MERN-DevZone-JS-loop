@@ -177,6 +177,20 @@ for (let i = 2; i <= 20; i += 2) {
     let element = student[i];
     console.log(element);
   }
+}
 
+
+/*  ~ FACTORIAL ~  */
+
+//3! = 3 * 2 * 1
+//4!= 4 * 3 * 2 * 1
+//5! = 5 * 4 * 3 * 2 * 1
+
+{
+  let factorial = 1;
+  for (let i = 1; i <= 7; i++) {
+    factorial = factorial * i;
+  }
+  console.log(factorial);
 }
 
